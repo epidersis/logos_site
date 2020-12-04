@@ -1,0 +1,196 @@
+.header_block .container-fluid {
+  max-width: 1500px;
+}
+
+header .logo_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo_link:link, .logo_link:hover, .logo_link:active, .logo_link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+header .logo_img {
+  float: left;
+  margin-right: 15px;
+  width: 60px;
+}
+
+header .logo_text {
+  font-size: 2rem;
+}
+
+header h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+header .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header .phone {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+header .phone p {
+  margin: 0;
+  padding: 0;
+}
+
+header .call_us_block {
+  text-align: center;
+}
+
+header .btn.call_us {
+  font-size: 2rem;
+}
+
+.in_progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.slider_block {
+  height: 200px;
+  background-color: rgb(62, 120, 170);
+}
+
+.description_block {
+  height: 200px;
+  background-color: rgb(67, 168, 109);
+}
+
+.list_block {
+  height: 200px;
+  background-color: rgb(185, 161, 26);
+}
+
+.filter_block {
+  height: 200px;
+  background-color: rgb(95, 26, 185);
+}
+
+/* .staff_block {
+  height: 200px;
+  background-color: rgb(124, 38, 98);
+} */
+
+.staff_block .container-fluid {
+  max-width: 1500px;
+}
+
+#staff_title {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 30px 0 30px 0;
+}
+
+.staff_block .staff_member {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  font-size: 1rem;
+  height: 400px;
+}
+
+.staff_member p {
+  margin-top: 10px;
+}
+
+#kot_img {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/kot.jpg");
+  background-position: 40% 50%;
+  background-size: 400px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 5px 0 gray;
+}
+
+#mat_img {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/mat.jpg");
+  background-position: 30% 30%;
+  background-size: 400px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 5px 0 gray;
+}
+
+#dem_img {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/dem.jpg");
+  background-position: 50% 50%;
+  background-size: 550px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 5px 0 gray;
+}
+
+.staff_name {
+  font-weight: bold;
+}
+
+.staff_desc {
+  text-align: center;
+}
+
+.brands_block {
+  height: 200px;
+  background-color: rgb(160, 73, 33);
+}
+
+.tips_block {
+  height: 200px;
+  background-color: rgb(26, 88, 75);
+}
+
+/* .company_block {
+  height: 500px;
+} */
+
+.company_block [class|="col"] {
+  text-align: center;
+  max-width: 600px;
+}
+
+.company_block .company_info, .sub_form {
+  padding: 40px;
+  height: 400px;
+}
+
+
+.company_block .company_name, .sub_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.company_block .company_text {
+  text-align: justify;
+}
+
+.reviews_block {
+  height: 200px;
+  background-color: rgb(141, 44, 73);
+}
+
+.map_block {
+  height: 200px;
+  background-color: rgb(20, 41, 87);
+}
