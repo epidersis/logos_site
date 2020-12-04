@@ -59,8 +59,18 @@ header .btn.call_us {
 }
 
 .slider_block {
-  height: 200px;
-  background-color: rgb(62, 120, 170);
+  background-color: gray;
+}
+
+.slider_block .carousel-inner {
+  height: 500px;
+}
+
+.slider_block .carousel-item [id$="page"] {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description_block {
