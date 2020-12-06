@@ -112,7 +112,7 @@ header .btn.call_us {
   align-items: center;
   /* justify-content: space-around; */
   font-size: 1rem;
-  height: 400px;
+  height: 380px;
 }
 
 .staff_member p {
@@ -181,9 +181,26 @@ header .btn.call_us {
 
 .company_block .company_info, .sub_form {
   padding: 40px;
-  height: 400px;
+  /* height: 400px; */
 }
 
+.company_block .sub_form {
+  padding-top: 0;
+}
+
+.company_block .company_info{
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .company_block .sub_form {
+    padding-top: 40px;
+  }
+
+  .company_block .company_info{
+    padding-bottom: 40px;
+  }
+}
 
 .company_block .company_name, .sub_title {
   text-align: center;
