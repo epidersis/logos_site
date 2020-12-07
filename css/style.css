@@ -124,11 +124,13 @@ header .btn.call_us {
   max-width: 1500px;
 }
 
-#staff_title {
+#staff_title, #brands_title {
   text-align: center;
   font-size: 1.9rem;
   font-weight: bold;
   padding: 30px 0 30px 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .staff_block .staff_member {
@@ -187,9 +189,15 @@ header .btn.call_us {
   text-align: center;
 }
 
-.brands_block {
+.brands_block .container-fluid {
+  max-width: 1500px;
+  text-align: center;
+  min-height: 650px;
+}
+
+.brands_block img {
   height: 200px;
-  background-color: rgb(160, 73, 33);
+  margin: 20px;
 }
 
 .tips_block {
