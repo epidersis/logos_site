@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url("../fonts/GothamPro-Medium.ttf");
+}
+
+* {
+  font-family: "Gotham Pro Medium";
+}
+
 .header_block .container-fluid {
   max-width: 1500px;
 }
@@ -59,7 +68,7 @@ header .btn.call_us {
 }
 
 .slider_block {
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .slider_block .carousel-inner {
@@ -71,6 +80,24 @@ header .btn.call_us {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#first_info_page {
+  background-image: url("../images/backs_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#second_info_page {
+  background-image: url("../images/backs_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#third_info_page {
+  background-image: url("../images/backs_3.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .description_block {
