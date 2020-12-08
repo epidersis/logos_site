@@ -97,16 +97,26 @@ header .btn.call_us {
 }
 
 .description_block .container{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .description_block ul li {
   font-size: 20px;
 }
 
-.list_block {
-  height: 200px;
-  background-color: rgb(185, 161, 26);
+.list_block .container {
+  margin-bottom: 40px;
+}
+
+.list_block img {
+  scale: .4;
+}
+
+.list_block .card {
+  width: 18rem;
+  padding: 20px;
+  margin: 10px auto;
+  min-height: 470px;
 }
 
 .filter_block {
@@ -123,7 +133,7 @@ header .btn.call_us {
   max-width: 1500px;
 }
 
-#staff_title, #brands_title, #goods_desc_title {
+#staff_title, #brands_title, #goods_desc_title, #goods_list {
   text-align: center;
   font-size: 1.9rem;
   font-weight: bold;
