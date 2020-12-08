@@ -124,16 +124,11 @@ header .btn.call_us {
   background-color: rgb(95, 26, 185);
 }
 
-/* .staff_block {
-  height: 200px;
-  background-color: rgb(124, 38, 98);
-} */
-
 .staff_block .container-fluid {
   max-width: 1500px;
 }
 
-#staff_title, #brands_title, #goods_desc_title, #goods_list {
+.main-title {
   text-align: center;
   font-size: 1.9rem;
   font-weight: bold;
@@ -209,14 +204,14 @@ header .btn.call_us {
   margin: 20px;
 }
 
-.tips_block {
-  height: 200px;
-  background-color: rgb(26, 88, 75);
+.tips_block .card {
+  min-height: 380px;
 }
 
-/* .company_block {
-  height: 500px;
-} */
+.tips_block img {
+  object-fit: cover;
+  max-height: 180px;
+}
 
 .company_block [class|="col"] {
   text-align: center;
@@ -225,7 +220,6 @@ header .btn.call_us {
 
 .company_block .company_info, .sub_form {
   padding: 40px;
-  /* height: 400px; */
 }
 
 .company_block .sub_form {
