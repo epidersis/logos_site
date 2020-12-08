@@ -250,9 +250,14 @@ header .btn.call_us {
   text-align: justify;
 }
 
-.reviews_block {
+.reviews_block img {
   height: 200px;
-  background-color: rgb(141, 44, 73);
+}
+
+.reviews_block .media {
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow: 0 0 5px 0px lightblue;
 }
 
 .map_block .map {
