@@ -67,10 +67,6 @@ header .btn.call_us {
   font-size: 2.5rem;
 }
 
-.slider_block {
-  /* background-color: gray; */
-}
-
 .slider_block .carousel-inner {
   height: 500px;
 }
@@ -100,9 +96,12 @@ header .btn.call_us {
   background-position: center;
 }
 
-.description_block {
-  height: 200px;
-  background-color: rgb(67, 168, 109);
+.description_block .container{
+  margin-bottom: 30px;
+}
+
+.description_block ul li {
+  font-size: 20px;
 }
 
 .list_block {
@@ -124,7 +123,7 @@ header .btn.call_us {
   max-width: 1500px;
 }
 
-#staff_title, #brands_title {
+#staff_title, #brands_title, #goods_desc_title {
   text-align: center;
   font-size: 1.9rem;
   font-weight: bold;
