@@ -261,7 +261,6 @@ header .btn.call_us {
   background-color: rgb(141, 44, 73);
 }
 
-.map_block {
-  height: 200px;
-  background-color: rgb(20, 41, 87);
+.map_block .map {
+  width: 100%;
 }
