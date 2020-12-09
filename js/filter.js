@@ -28,7 +28,7 @@ function hideShow(kinds=[]) {
 
 
 showBtn.on('click', function() {
-  itemsToHide = $('.catalog-checkbox-button:checkbox:not(:checked)');
+  itemsToHide = $('.catalog-checkbox-button:not(:checked)');
   hideShow(itemsToHide);
 });
 
