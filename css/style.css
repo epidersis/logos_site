@@ -60,13 +60,6 @@ header .btn.call_us {
   font-size: 2rem;
 }
 
-.in_progress {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-}
-
 .slider_block .carousel-inner {
   height: 500px;
 }
@@ -104,6 +97,12 @@ header .btn.call_us {
   font-size: 20px;
 }
 
+.list_block .filter {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 10px;
+  padding: 10px;
+}
+
 .list_block .container {
   margin-bottom: 40px;
 }
@@ -113,15 +112,18 @@ header .btn.call_us {
 }
 
 .list_block .card {
-  width: 18rem;
+  width: 14rem;
   padding: 20px;
   margin: 10px auto;
   min-height: 470px;
 }
 
-.filter_block {
-  height: 200px;
-  background-color: rgb(95, 26, 185);
+.filter .form-check {
+  margin-bottom: 10px;
+}
+
+.filter .filter-button {
+  width: 80%;
 }
 
 .staff_block .container-fluid {

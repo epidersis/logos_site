@@ -1,16 +1,13 @@
-let btn = document.querySelector('.toTop')
+let btn = $('.toTop')
 
-btn.onclick = function() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-};
+btn.on('click', function() {
+  $('html, body').animate({scrollTop: 0}, 500);
+});
 
-window.onscroll = function() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btn.style.display = "block";
+$(window).on('scroll', function() {
+  if (window.pageYOffset < 300) {
+    btn.fadeOut();
   } else {
-    btn.style.display = "none";
+    btn.fadeIn();
   }
-};
+});

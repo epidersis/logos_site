@@ -84,18 +84,18 @@
             <div class="row">
               <div class="col-6">
                 <div class="list-group" id="list-tab" role="tablist">
-                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Мобильность</a>
-                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Доступ ко всему</a>
-                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Неограниченные возможности</a>
-                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Аэродинамика</a>
+                  <a class="list-group-item list-group-item-action active" id="list-mobility-list" data-toggle="list" href="#list-mobility" role="tab" aria-controls="mobility">Мобильность</a>
+                  <a class="list-group-item list-group-item-action" id="list-accessibility-list" data-toggle="list" href="#list-accessibility" role="tab" aria-controls="accessibility">Доступ ко всему</a>
+                  <a class="list-group-item list-group-item-action" id="list-abilities-list" data-toggle="list" href="#list-abilities" role="tab" aria-controls="abilities">Неограниченные возможности</a>
+                  <a class="list-group-item list-group-item-action" id="list-dynamics-list" data-toggle="list" href="#list-dynamics" role="tab" aria-controls="dynamics">Аэродинамика</a>
                 </div>
               </div>
               <div class="col-6">
                 <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Всегда с собой</div>
-                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Вы не заблудитесь, не умрете с голоду и не останесь без ВК</div>
-                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Совершенство зависит только от бездонности вашего кошелька</div>
-                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Ей можно кидаться</div>
+                  <div class="tab-pane fade show active" id="list-mobility" role="tabpanel" aria-labelledby="list-mobility-list">Всегда с собой</div>
+                  <div class="tab-pane fade" id="list-accessibility" role="tabpanel" aria-labelledby="list-accessibility-list">Вы не заблудитесь, не умрете с голоду и не останесь без ВК</div>
+                  <div class="tab-pane fade" id="list-abilities" role="tabpanel" aria-labelledby="list-abilities-list">Совершенство зависит только от бездонности вашего кошелька</div>
+                  <div class="tab-pane fade" id="list-dynamics" role="tabpanel" aria-labelledby="list-dynamics-list">Ей можно кидаться</div>
                 </div>
               </div>
             </div>
@@ -111,41 +111,71 @@
               КАТАЛОГ ТОВАРОВ
             </p>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img class="card-img-top" src="images/goods/nokia.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Телефон</h5>
-                <h6 class="card-subtitle mb-2 text-muted">999$</h6>
-                <p class="card-text">Чудо техники: молчит, не жалуется, звонить позволяет.</p>
+          <div class="col-12 col-md-3">
+            <div class="filter">
+              <div class="row align-items-center">
+                <div class="col-3 col-md-12 filter-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="phone_check">
+                    <label class="form-check-label" for="phone_check">
+                      Телефоны
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="watch_check">
+                    <label class="form-check-label" for="watch_check">
+                      Часы
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="player_check">
+                    <label class="form-check-label" for="player_check">
+                      Плееры
+                    </label>
+                  </div>
+                </div>
+                <div class="col-9 col-md-12 text-center">
+                  <input class="btn btn-primary filter-button" type="button" value="Показать">
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img class="card-img-top" src="images/goods/watch.jfif" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Часы</h5>
-                <h6 class="card-subtitle mb-2 text-muted">999$</h6>
-                <p class="card-text">Как телефон, только на руке.</p>
+          <div class="col-12 col-md-9">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-phone">
+                <div class="card">
+                  <img class="card-img-top" src="images/goods/nokia.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Телефон</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">999$</h6>
+                    <p class="card-text">Чудо техники: молчит, не жалуется, звонить позволяет.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img class="card-img-top" src="images/goods/ipod.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Плеер</h5>
-                <h6 class="card-subtitle mb-2 text-muted">99$</h6>
-                <p class="card-text">Звонить нельзя, но есть музыка. Наушники в комплекте.</p>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-watch">
+                <div class="card">
+                  <img class="card-img-top" src="images/goods/watch.jfif" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Часы</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">999$</h6>
+                    <p class="card-text">Как телефон, только на руке.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-player">
+                <div class="card">
+                  <img class="card-img-top" src="images/goods/ipod.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Плеер</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">99$</h6>
+                    <p class="card-text">Звонить нельзя, но есть музыка. Наушники в комплекте.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="filter_block in_progress">
-      <p>FILTER</p>
     </div>
     <div class="staff_block">
       <div class="container-fluid">
@@ -265,11 +295,11 @@
               <form action="">
                 <div class="form-group">
                   <label for="name">Ваше имя</label>
-                  <input type="text" name="name" id="name" class="form-control" placeholder="Введите ФИО">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Введите ФИО" required>
                 </div>
                 <div class="form-group">
                   <label for="email">Ваша почта</label>
-                  <input type="email" name="email" id="email" class="form-control" placeholder="Введите ваш адрес электронной почты">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Введите ваш адрес электронной почты" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Подписаться</button>
               </form>
@@ -336,5 +366,6 @@
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/toTop.js"></script>
+  <script src="js/filter.js"></script>
 </body>
 </html>
