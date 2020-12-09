@@ -21,7 +21,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="phone text-nowrap">
+            <div class="phone_number text-nowrap">
               <p>+7-123-456-78-90</p>
             </div>
           </div>
@@ -116,34 +116,41 @@
               <div class="row align-items-center">
                 <div class="col-3 col-md-12 filter-group">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="phone_check">
+                    <input class="form-check-input catalog-checkbox-button" type="checkbox" value="" id="phone_check" data-name="phone">
                     <label class="form-check-label" for="phone_check">
                       Телефоны
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="watch_check">
+                    <input class="form-check-input catalog-checkbox-button" type="checkbox" value="" id="watch_check" data-name="watch">
                     <label class="form-check-label" for="watch_check">
                       Часы
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="player_check">
+                    <input class="form-check-input catalog-checkbox-button" type="checkbox" value="" id="player_check"  data-name="player">
                     <label class="form-check-label" for="player_check">
                       Плееры
                     </label>
                   </div>
                 </div>
                 <div class="col-9 col-md-12 text-center">
-                  <input class="btn btn-primary filter-button" type="button" value="Показать">
+                  <div class="row">
+                    <div class="col-12">
+                      <input class="btn btn-primary filter-button show-button" type="button" value="Показать">
+                    </div>
+                    <div class="col-12">
+                      <input class="btn btn-primary filter-button reset-button" type="button" value="Сброс">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-9">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-phone">
-                <div class="card">
+            <div class="row catalog-list">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card catalog-item phone all">
                   <img class="card-img-top" src="images/goods/nokia.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Телефон</h5>
@@ -152,8 +159,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-watch">
-                <div class="card">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 watch">
+                <div class="card catalog-item watch all">
                   <img class="card-img-top" src="images/goods/watch.jfif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Часы</h5>
@@ -163,7 +170,7 @@
                 </div>
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-4 goods-player">
-                <div class="card">
+                <div class="card catalog-item player all">
                   <img class="card-img-top" src="images/goods/ipod.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Плеер</h5>
