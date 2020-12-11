@@ -17,7 +17,7 @@ header .logo_link {
   justify-content: center;
 }
 
-header .logo_link:link, .logo_link:hover, .logo_link:active, .logo_link:visited {
+header .logo_link:link, header .logo_link:hover, header .logo_link:active, header .logo_link:visited {
   text-decoration: none;
   color: black;
 }
