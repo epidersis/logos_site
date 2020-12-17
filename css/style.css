@@ -273,7 +273,6 @@ header .btn.call_us {
   height: 50px;
 
   position: fixed;
-
   right: 15px;
   bottom: 15px;
   z-index: 99;
@@ -285,10 +284,6 @@ header .btn.call_us {
   background-repeat: no-repeat;
   border-radius: 50%;
 
-  display: none;
-}
-
-.toTop:hover {
   cursor: pointer;
 }
 

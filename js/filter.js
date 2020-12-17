@@ -3,8 +3,6 @@ let resetBtn = $('.reset-button')
 let elements = $('.catalog-item')
 let rads = $('.catalog-checkbox-button')
 
-let checkedAny = false;
-
 
 function hideShow(kinds=[]) {
   elements.each(function() {
